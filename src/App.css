@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+#root{
+    font-family: 'Poppins';
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+
+.dropZone{
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.table__container{
+  text-align: center;
+  width: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+td {
+  border: 1px solid black;
+}
+
+table, th{
+  border: 2px solid;
+}
+
+th{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+th, td {
+  padding: 8px 18px;
+  text-align: left;
+  text-align: center;
+}
+
+.import__csv button{
+  padding: 10px 3rem;
+  margin: 12px 0px;
+  font-family: poppins;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #f2f2f2;
+}
+
+.import__csv button:hover{
+  background-color: #cccccc;
+  cursor: pointer;
+}
